@@ -3,12 +3,12 @@
   width: 145px;
   min-width: 145px;
   height: 100%;
-  background-image: url("./img/logotype.svg");
+  background-image: url("../img/logotype.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 
   &--white {
-    background-image: url("./img/logotype-white.svg");
+    background-image: url("../img/logotype-white.svg");
   }
 }
