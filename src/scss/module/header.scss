@@ -1,0 +1,21 @@
+.header {
+  width: 100%;
+  height: 108px;
+  padding: 14px 200px 14px 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &-navigation {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 500px;
+    min-width: 500px;
+  }
+
+  &-navigation__item {
+    letter-spacing: -0.02em;
+    color: #151E2E;
+    text-decoration: none;
+  }
+}

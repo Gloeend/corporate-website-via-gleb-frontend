@@ -1,0 +1,21 @@
+.breadcrumb {
+  display: inline-flex;
+  min-width: 100%;
+
+  &__item {
+    display: block;
+    max-width: fit-content;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    color: #7A808C;
+    text-decoration: none;
+    &:not(:first-child)::before {
+      content: '/';
+      margin: 0 5px;
+    }
+    &:not(:last-child):hover {
+      color: #007aff;
+    }
+  }
+}

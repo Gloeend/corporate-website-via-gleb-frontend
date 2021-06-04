@@ -1,0 +1,21 @@
+.view {
+  max-width: 700px;
+  margin: 20px 0;
+  &__picture {
+    max-width: 100%;
+    min-width: 15%;
+    height: 336px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__desc {
+    max-width: 100%;
+    min-width: 15%;
+    font-size: 18px;
+    line-height: 21px;
+    color: #151E2E;
+  }
+}
