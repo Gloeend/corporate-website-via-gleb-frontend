@@ -10,7 +10,6 @@
       font-size: 48px;
       display: inline-flex;
       align-items: center;
-      margin: 6px 0 4px 0;
     }
   }
   &__body {
@@ -31,5 +30,9 @@
     line-height: 16px;
     letter-spacing: -0.02em;
     color: #7A808C;
+  }
+
+  &__title--view h3 {
+    margin: 6px 0 4px 0;
   }
 }
